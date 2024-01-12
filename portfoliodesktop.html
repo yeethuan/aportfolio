@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="portfoliodesktop.css"> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+
+
+<body>
+    <!-- NAVBAR -->
+    <div id="navbar">
+        <a href="index.html">Home</a>
+        <a class="active" href="portfoliodesktop.html">Portfolio</a>
+        <a href="resumedesktop.html">Resume</a>
+    </div>
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+        } else {
+            navbar.classList.remove("sticky");
+        }
+        }
+        </script>
+
+
+
+
+
+</body>
+
+</html>

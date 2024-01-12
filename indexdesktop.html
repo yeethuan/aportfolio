@@ -10,26 +10,22 @@
 
 
 <body>
-    <!-- NAVBAR-->
-    <div id="navbar">
-        <a class="active" href="index.html">Home</a>
-        <a href="portfoliodesktop.html">Portfolio</a>
+    <!-- NAVBAR -->
+    <div class="navbar">
+        <a href="indexdesktop.html">Home</a>
         <a href="resumedesktop.html">Resume</a>
+        <div class="dropdown">
+        <button class="dropbtn">Portfolio</button>
+        <div class="dropdown-content">
+            <a href="figmadesktop.html">Figma</a>
+            <a href="graphicdesigndesktop.html">Graphic Design</a>
+            <a href="photographydesktop.html">Photography</a>
+            <a href="leadershipdesktop.html">Leadership</a>
+        </div>
+        </div> 
     </div>
-    <script>
-        window.onscroll = function() {myFunction()};
-        
-        var navbar = document.getElementById("navbar");
-        var sticky = navbar.offsetTop;
-        
-        function myFunction() {
-        if (window.pageYOffset >= sticky) {
-            navbar.classList.add("sticky")
-        } else {
-            navbar.classList.remove("sticky");
-        }
-        }
-        </script>
+    <!-- NAVBAR -->
+
 
 
 
@@ -37,7 +33,7 @@
 
 
     
-    <h1>Hi my name is<br>Yi Huan</h1>
+    <h1>Hi my name is Yi Huan</h1>
 
     <h2>
         Drexel University Undergraduate | UXID

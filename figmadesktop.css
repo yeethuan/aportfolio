@@ -1,3 +1,4 @@
+  /* Navbar Start */
 .navbar {
     overflow: hidden;
     background-color: #333;
@@ -58,5 +59,4 @@
     display: block;
 }
 
-
-
+  /* Navbar END */
